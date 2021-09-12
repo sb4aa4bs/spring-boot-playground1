@@ -4,3 +4,4 @@ https://www.baeldung.com/spring-boot-start
 https://www.baeldung.com/maven-multi-module
 https://codeahoy.com/java/springboot/tutorial/2019/09/01/spring-boot-replace-tomcat-with-jetty-as-the-embedded-server/
 https://www.baeldung.com/exception-handling-for-rest-with-spring
+https://javabydeveloper.com/lombok-slf4j-examples/
