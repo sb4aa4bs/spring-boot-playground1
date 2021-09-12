@@ -4,10 +4,12 @@ import com.apeiron.abs2.springbootplayground1.exception.NegativeScoreException;
 import com.apeiron.abs2.springbootplayground1.model.ScoreResponse;
 import com.apeiron.abs2.springbootplayground1.service.DemoService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
 @Slf4j
+@Service
 public class DemoServiceImpl implements DemoService {
     @Override
     public ScoreResponse score(String correlationId) {
