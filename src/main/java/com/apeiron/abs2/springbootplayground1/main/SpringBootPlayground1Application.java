@@ -1,4 +1,4 @@
-package com.apeiron.abs2.springbootplayground1;
+package com.apeiron.abs2.springbootplayground1.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

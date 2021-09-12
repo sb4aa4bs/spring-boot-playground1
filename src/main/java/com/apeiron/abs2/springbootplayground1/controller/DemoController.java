@@ -1,4 +1,4 @@
-package com.apeiron.abs2.springbootplayground1;
+package com.apeiron.abs2.springbootplayground1.controller;
 
 
 import com.apeiron.abs2.springbootplayground1.exception.NegativeScoreException;
@@ -7,9 +7,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
 import java.util.Random;
 
 @RestController
@@ -18,7 +20,7 @@ import java.util.Random;
 public class DemoController {
 
     @GetMapping("/score")
-    public ResponseEntity<ScoreResponse> score(){
+    public ResponseEntity<ScoreResponse> score(@RequestHeader Map<String, String>httpHeaders){
         ResponseEntity entity=null;
         ScoreResponse pingResponse = new ScoreResponse(0, "ping success");
         int score=new Random().nextInt();
