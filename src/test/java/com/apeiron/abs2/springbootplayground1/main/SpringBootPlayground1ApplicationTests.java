@@ -1,4 +1,4 @@
-package com.apeiron.abs2.springbootplayground1;
+package com.apeiron.abs2.springbootplayground1.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
