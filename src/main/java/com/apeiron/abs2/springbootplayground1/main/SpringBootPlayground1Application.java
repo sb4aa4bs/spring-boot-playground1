@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+//@SpringBootApplication(exclude = { SecurityAutoConfiguration.class }) // If wanted to BYPASS SECURITY
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.apeiron.abs2.springbootplayground1"})
 public class SpringBootPlayground1Application {
