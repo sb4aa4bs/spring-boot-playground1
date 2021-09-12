@@ -11,3 +11,4 @@ https://www.baeldung.com/spring-boot-add-filter
 https://stackoverflow.com/questions/48240291/adding-custom-header-to-request-via-filter
 https://www.javadevjournal.com/spring/how-to-read-http-headers-in-spring-controller/
 https://stackoverflow.com/questions/45232071/springboot-401-unauthorized-even-with-out-security
+https://makeinjava.com/logging-aspect-restful-web-service-spring-aop-request-response/
