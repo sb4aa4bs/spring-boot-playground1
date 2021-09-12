@@ -9,3 +9,4 @@ https://medium.com/codestorm/custom-json-response-with-responseentity-in-spring-
 https://www.baeldung.com/spring-component-scanning
 https://www.baeldung.com/spring-boot-add-filter
 https://stackoverflow.com/questions/48240291/adding-custom-header-to-request-via-filter
+https://www.javadevjournal.com/spring/how-to-read-http-headers-in-spring-controller/
