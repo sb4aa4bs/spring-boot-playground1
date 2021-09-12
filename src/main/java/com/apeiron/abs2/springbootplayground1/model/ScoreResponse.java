@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class ScoreResponse extends Response{
 
-    public ScoreResponse(int errorCode, String errorDescription) {
-        super(errorCode, errorDescription);
+    public ScoreResponse(int errorCode, String errorDescription, String correlationId) {
+        super(errorCode, errorDescription, correlationId);
     }
 }

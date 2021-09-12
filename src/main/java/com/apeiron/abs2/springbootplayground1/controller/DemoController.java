@@ -20,19 +20,17 @@ import java.util.Random;
 public class DemoController {
 
     @GetMapping("/score")
-    public ResponseEntity<ScoreResponse> score(@RequestHeader Map<String, String>httpHeaders){
+    public ResponseEntity<ScoreResponse> score(@RequestHeader Map<String, String> httpHeaders){
         ResponseEntity entity=null;
-        ScoreResponse pingResponse = new ScoreResponse(0, "ping success");
         int score=new Random().nextInt();
+        log.info("Request Headers after Applying the HeaderUpdateFilter : {}", httpHeaders.toString());
         log.info("Score : {}", score );
-        pingResponse.setScore(score);
-        pingResponse.setScoreDescription("AcceptableScore");
+        ScoreResponse scoreResponse = new ScoreResponse(score, "AcceptableScore", httpHeaders.get(
+                "correlationId"));
         if(score < 1) {
-            pingResponse.setScore(score);
-            pingResponse.setScoreDescription("NegativeScore");
             throw new NegativeScoreException("NegativeScoreException : Score Generated is Negative");
         }
         // return 200 OK in case if the generated Score is a positive integer
-        return new ResponseEntity<ScoreResponse>(pingResponse, HttpStatus.OK);
+        return new ResponseEntity<ScoreResponse>(scoreResponse, HttpStatus.OK);
     }
 }

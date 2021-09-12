@@ -6,3 +6,6 @@ https://codeahoy.com/java/springboot/tutorial/2019/09/01/spring-boot-replace-tom
 https://www.baeldung.com/exception-handling-for-rest-with-spring
 https://javabydeveloper.com/lombok-slf4j-examples/
 https://medium.com/codestorm/custom-json-response-with-responseentity-in-spring-boot-b09e87ab1f0a
+https://www.baeldung.com/spring-component-scanning
+https://www.baeldung.com/spring-boot-add-filter
+https://stackoverflow.com/questions/48240291/adding-custom-header-to-request-via-filter
