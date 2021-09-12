@@ -12,3 +12,4 @@ https://stackoverflow.com/questions/48240291/adding-custom-header-to-request-via
 https://www.javadevjournal.com/spring/how-to-read-http-headers-in-spring-controller/
 https://stackoverflow.com/questions/45232071/springboot-401-unauthorized-even-with-out-security
 https://makeinjava.com/logging-aspect-restful-web-service-spring-aop-request-response/
+https://howtodoinjava.com/spring-aop/aspectj-around-annotation-example/
