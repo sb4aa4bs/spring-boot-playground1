@@ -18,3 +18,5 @@ https://stackoverflow.com/questions/50486314/how-to-solve-403-error-in-spring-bo
 https://threepotatoteers.medium.com/use-spring-aop-to-log-post-requests-6abee5753464
 https://stackoverflow.com/questions/59817236/spring-aop-around-controllers-does-not-work-when-request-input-are-invalid
 https://fullstackdeveloper.guru/2020/09/25/how-to-log-incoming-requests-to-all-rest-services-in-spring-boot/
+https://docs.spring.io/spring-framework/docs/4.3.15.RELEASE/spring-framework-reference/html/aop.html
+https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/development/ad-fs-openid-connect-oauth-concepts#:~:text=by%20AD%20FS.-,Scopes,FS%20to%20perform%20the%20action.
