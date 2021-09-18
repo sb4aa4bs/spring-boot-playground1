@@ -13,3 +13,8 @@ https://www.javadevjournal.com/spring/how-to-read-http-headers-in-spring-control
 https://stackoverflow.com/questions/45232071/springboot-401-unauthorized-even-with-out-security
 https://makeinjava.com/logging-aspect-restful-web-service-spring-aop-request-response/
 https://howtodoinjava.com/spring-aop/aspectj-around-annotation-example/
+https://frandorado.github.io/spring/2018/11/15/log-request-response-with-body-spring.html
+https://stackoverflow.com/questions/50486314/how-to-solve-403-error-in-spring-boot-post-request
+https://threepotatoteers.medium.com/use-spring-aop-to-log-post-requests-6abee5753464
+https://stackoverflow.com/questions/59817236/spring-aop-around-controllers-does-not-work-when-request-input-are-invalid
+https://fullstackdeveloper.guru/2020/09/25/how-to-log-incoming-requests-to-all-rest-services-in-spring-boot/
